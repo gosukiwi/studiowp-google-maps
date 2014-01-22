@@ -1,0 +1,14 @@
+<p>Address</p>
+<input type="text" id="address" />
+
+<button id="btn-ok">OK</button>
+
+<script type="text/javascript">
+(function () {
+    "use strict";
+
+    document.getElementById('btn-ok').onclick = function () {
+        top.tinymce.activeEditor.windowManager.close();
+    };
+ }());
+</script>
